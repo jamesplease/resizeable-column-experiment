@@ -55,11 +55,19 @@ main {
 }
 
 .cell {
+  box-sizing: border-box;
+  font-size: 12px;
+  padding: 3px;
+  color: #aaa;
   position: absolute;
   width: 80px;
   min-height: 20px;
   background-color: #fafafa;
   border: 1px solid #e2e2e2;
+}
+
+.cell:not(:first-child) {
+  box-shadow: 0 0 0 2px #fff;
 }
 
 .cell.one {
