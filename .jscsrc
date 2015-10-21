@@ -1,0 +1,21 @@
+{
+  "preset": "google",
+  "maximumLineLength": 200,
+  "esnext": true,
+  "requireCamelCaseOrUpperCaseIdentifiers": "ignoreProperties",
+  "disallowSpacesInsideObjectBrackets": null,
+  "disallowMultipleVarDecl": "exceptUndefined",
+  "disallowKeywordsOnNewLine": null,
+  "requireCommaBeforeLineBreak": true,
+  "disallowEmptyBlocks": true,
+  "disallowKeywordsInComments": true,
+  "disallowNamedUnassignedFunctions": true,
+  "disallowPaddingNewlinesInBlocks": true,
+  "disallowQuotedKeysInObjects": true,
+  "requireSpaceAfterLineComment": true,
+  "disallowSpaceBeforeComma": true,
+  "requireBlocksOnNewline": 1,
+  "requireDollarBeforejQueryAssignment": true,
+  "requireTemplateStrings": true,
+  "safeContextKeyword": ["self"]
+}
